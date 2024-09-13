@@ -1,0 +1,25 @@
+{
+  "name": "optimizar_imagenes",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "optimizador de imagenes",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "josé Eduardo",
+  "license": "ISC",
+  "devDependencies": {
+    "fs-extra": "^11.2.0",
+    "imagemin": "^8.0.1",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-jpegtran": "^7.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "imagemin-svgo": "^10.0.1",
+    "imagemin-webp": "^8.0.0",
+    "sharp": "^0.33.2"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0"
+  }
+}
